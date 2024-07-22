@@ -1,0 +1,72 @@
+/*ESTABELECENDO A MESMA FONTE PARA TODO O SITE*/
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/*CONFIGURAÇÕES NO CORPO DA PÁGINA*/
+body {
+    background-color: #CAADE6;
+    margin: 0;
+    padding: 0;
+}
+
+/*ESTILIZAÇÃO DOS ELEMENTOS NA TAG NAV*/
+nav {
+    /*width: 2000px;*/
+    height: 50px;
+    padding: 2em 50px 40px 50px;
+    margin: 0;
+    background-color: #610588;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+a,li {
+    color: white;
+    text-decoration: 0;
+    font-size: 14px;
+}
+
+/*ESTILIZAÇÃO DO TEXTO PRINCIPAL*/
+#my-info{
+    padding: 50px;
+}
+
+#org {
+    color: #610588;
+    text-align: center;
+}
+
+#just {
+    color: #610588;
+    text-align: justify;
+
+}
+
+/*ESTILIZAÇÃO DA FOOTER*/
+#my-footer{
+    background-color: #610588;
+    padding: 50px;
+}
+
+footer>div {
+    color: white;
+}
+
+div>h3 {
+    text-align: center;
+}
+
+#texto-dois {
+    text-align: justify;
+}
+
+#my-indi { 
+    height:0;
+    padding: 1em 50px 30px 50px;
+    text-align: center;
+    background-color: #AA79DC;
+}
